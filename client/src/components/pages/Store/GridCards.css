@@ -1,0 +1,51 @@
+.shop-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.shop-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 170px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    min-width: 300px;
+    
+}
+
+.shop h1 {
+    font-size: 20px;
+    width: 150px;
+}
+
+.shop-img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.shop-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shop-info {
+    width: 130%;
+    text-align: left;
+}
+
+.shop-addr {
+    width: 150%;
+    text-align: right;
+}

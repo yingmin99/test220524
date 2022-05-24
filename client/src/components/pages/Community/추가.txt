@@ -1,0 +1,12 @@
+                  <div>
+                    <Avatar
+                      size="40"
+                      round={true}
+                      src={post.author.photoURL}
+                      style={{ border: "1px solid #c6c6c6" }}
+                    />
+                    {/*<p>{post.author.displayName}</p>*/}
+                  </div>
+
+
+                  div className="author"여기 태그 사이에 넣으면됨
